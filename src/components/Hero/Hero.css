@@ -1,0 +1,13 @@
+.container{
+    background-image: url("./img/bg.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.hero{
+    padding: 3rem 10rem;
+    font-size: 40px;
+    line-height: 7rem;
+    text-align: center;
+}
