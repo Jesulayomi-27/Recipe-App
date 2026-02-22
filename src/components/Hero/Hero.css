@@ -11,3 +11,19 @@
     line-height: 7rem;
     text-align: center;
 }
+@media (max-width: 1024px) {
+    .hero {
+        padding: 3rem 5rem;
+        font-size: 32px;
+        line-height: 5rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .hero {
+        padding: 2rem 1.5rem;
+        font-size: 24px;
+        line-height: 3rem;
+    }
+}
