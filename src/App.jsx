@@ -5,7 +5,7 @@ import About from './pages/About'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Recipe-App/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path='/about' element={<About />} />
